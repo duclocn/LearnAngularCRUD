@@ -1,0 +1,14 @@
+.imageClass {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
