@@ -1,23 +1,4 @@
 <div class="panel panel-primary" *ngFor="let employee of employees">
-  <div>
-    <h3 class="title">{{ employee.name }}</h3>
-  </div>
-  <div>
-    <div class="vertical-align">
-      <img class="imageClass" [src]="employee.photoPath"/>
-    </div>
-    <div>
-      Gender
-    </div>
-    <div>
-      :{{employee.gender}}
-    </div>
-  </div>
-</div>
-
-
-
-<!-- <div class="panel panel-primary" *ngFor="let employee of employees">
     <div class="panel-header">
       <h3 class="panel-title title">{{employee.name}}</h3>
     </div>
@@ -28,7 +9,6 @@
             <img class="imageClass" [src]="employee.photoPath"/>
           </div>
           <div class="col-xs-8">
-
             <div class="row">
               <div class="col-xs-6">
                 Gender
@@ -89,4 +69,4 @@
         </div>
       </div>
     </div>
-</div> -->
+</div>
